@@ -128,11 +128,13 @@ a:hover {
 /* Grey bar to separate sections */
 .greyBar {
     display: flex;
-    background: #000000BF;
+    background: rgba(0, 0, 0, 0.75);
     align-items: center;
     justify-content: center;
-    width: auto;
-    height: 115px;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    position: absolute;
 }
 
 .greyBar p {
