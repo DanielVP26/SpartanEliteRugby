@@ -12,14 +12,22 @@ function Header() {
           </a>
           <ul>
             <li>
-              <a className="link" href="/">Conócenos</a>
+              <a className="link" href="/">
+                Conócenos
+              </a>
             </li>
             <li>
-              <a className="link" href="/">¿Porqué apoyarnos?</a>
+              <a className="link" href="/">
+                ¿Porqué apoyarnos?
+              </a>
             </li>
             <li>
               <div className="btn-nav">
-                <a href="https://spartaneliterugby.es/" target="_blank" className="btn-oldLink">
+                <a
+                  href="https://spartaneliterugby.es/"
+                  target="_blank"
+                  className="btn-oldLink"
+                >
                   Hazte patrocinador
                 </a>
               </div>
@@ -31,9 +39,9 @@ function Header() {
           <h2 className="slogan">todo el mundo camina</h2>
           <h2 className="slogan">hacia adelante</h2>
         </div>
-      <div className="greyBar">
-        <p>Apoya a Spartan e impulsa el crecimiento de tu marca</p>
-      </div>
+        <div className="greyBar">
+          <p>Apoya a Spartan e impulsa el crecimiento de tu marca</p>
+        </div>
       </header>
     </>
   );
