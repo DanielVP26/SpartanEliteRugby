@@ -1,0 +1,151 @@
+/* all main core content */
+
+.mainContainer {
+    height: 166.688rem;
+    width: auto;
+    background-image: url('../img/arrowMain.svg'), linear-gradient(to bottom, #000000, #040404, #080707, #0c0b0b, #0f0e0e);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100% auto, auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    overflow: hidden;
+
+}
+
+/* all main core content */
+/* assets */
+
+.info {
+    height: 166rem;
+    border: 1px solid red
+}
+
+.vector {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width: 40rem;
+    margin: 7.188rem 0 0 0rem;
+}
+
+.textInfo {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    width: 30rem;
+    color: white;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 1rem;
+    text-transform: capitalize;
+}
+
+/* Cards */
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardOne {
+    background-image: url(../img/cardOne.png);
+    background-size: cover;
+    width: 661px;
+    height: 516.49px;
+    border-radius: 60px 60px 0px 60px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-top: 4rem;
+    margin-left: -20px;
+    box-shadow: 16px 140px 56px rgba(0, 0, 0, 0.01), 9px 79px 48px rgba(0, 0, 0, 0.05), 4px 35px 35px rgba(0, 0, 0, 0.09), 1px 9px 19px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cardOneInfo {
+    width: 635px;
+    height: 435px;
+    background: #000000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 60px;
+    margin-top: 18rem;
+    margin-left: -2rem;
+    z-index: 1;
+}
+
+    .cardTextContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .cardOneText {
+        color: white;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 60px;
+        text-align: center;
+        margin: 3rem 0 0 18rem;
+    }
+
+    .cardOneParagraph1 {
+        color: white;
+        margin-top: 1rem;
+        height: 1rem;
+        font-size: 20px;    
+    }
+
+    .cardOneParagraph2 {
+        color: white;
+        margin: 0.9rem 0  0 1rem;
+        height: 1rem;
+        font-size: 20px;
+    }
+
+    .cardOneParagraph3 {
+        color: white;
+        text-align: right;
+        margin:0.9rem 0 0 22rem;
+        height: 1rem;
+        font-size: 20px;
+    }
+
+    .cardOneParagraph4 {
+        color: white;
+        margin: 3rem 0 0 10rem;
+        height: 1rem;
+        font-size: 20px;
+    }
+
+    .cardOneParagraph5 {
+        color: white;
+        margin-top: 0.9rem;
+        height: 1rem;
+        font-size: 20px;
+    }
+
+    .cardOneParagraph6 {
+        color: white;
+        margin: 0.9rem 0 0 16rem;
+        height: 1rem;
+        font-size: 20px;
+    }
+
+.xContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 3rem;
+    margin-top: -0.9rem;
+    letter-spacing: -0.2rem;
+}
+
+.x {
+    margin-left: 4px;
+}
+
+/* Cards */

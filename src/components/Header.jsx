@@ -12,15 +12,15 @@ function Header() {
           </a>
           <ul>
             <li>
-              <a href="/">Conócenos</a>
+              <a className="link" href="/">Conócenos</a>
             </li>
             <li>
-              <a href="/">¿Porqué apoyarnos?</a>
+              <a className="link" href="/">¿Porqué apoyarnos?</a>
             </li>
             <li>
               <div className="btn-nav">
                 <a href="https://spartaneliterugby.es/" target="_blank" className="btn-oldLink">
-                  Hazte Patrocinador
+                  Hazte patrocinador
                 </a>
               </div>
             </li>
