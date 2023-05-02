@@ -1,14 +1,15 @@
 import React from "react";
-import Brand from "./Brand.jsx";
 import "../styles/Header.css";
 import Main from "./Main.jsx";
 import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
 
 function Landing() {
   return (
     <>
       <Header/>
-      <Main />
+          <Main />
+          <Footer/>
     </>
   );
 }

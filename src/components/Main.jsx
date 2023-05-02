@@ -99,7 +99,7 @@ function Main() {
             <Fade left>
               <div className="cardThree"></div>
             </Fade>
-            <div id="queOfrecemos"></div>
+            <div id="#queOfrecemos"></div>
             <Fade right>
               <div className="cardThreeInfo">
                 <div className="xContainer">

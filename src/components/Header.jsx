@@ -7,26 +7,19 @@ function Header() {
     <>
       <header className="headerContainer">
         <nav>
-          <a href="/" class="brand">
+          <a href="#" class="brand">
             <Brand />
           </a>
           <ul>
             <li>
-              <a className="link" href="#queEsSpartan">
-                Conócenos
-              </a>
+              <a href="#queEsSpartan">Conócenos</a>
             </li>
             <li>
-              <a className="link" href="#nuestrosValores">
-                ¿Porqué apoyarnos?
-              </a>
+              <a href="#nuestrosValores">¿Porqué apoyarnos?</a>
             </li>
             <li>
               <div className="btn-nav">
-                <a
-                  href="#queOfrecemos"
-                  className="btn-oldLink"
-                >
+                <a href="#queOfrecemos" className="btn-oldLink">
                   Hazte patrocinador
                 </a>
               </div>
