@@ -66,12 +66,21 @@ function Main() {
               </div>
               <h2 className="cardTwoText">Nuestros valores</h2>
               <div className="cardTwoTextContainer">
-                <p className="keyWord">
-                  Lealtad - Sacrificio - Esfuerzo
+                <p className="keyWord">Lealtad - Sacrificio - Esfuerzo</p>
+                <p className="keyWord2">Compromiso - Trabajo - Convicción</p>
+              </div>
+              <div className="cardTwoTextInfo">
+                <p className="text1">
+                  Son los valores que involucramos a través de la
                 </p>
-                <p className="keyWord2">
-                  Compromiso - Trabajo - Convicción
+                <p className="text2">práctica de Rugby.</p>
+                <p className="text3">
+                  Creemos en el deporte como principal motor de
                 </p>
+                <p className="text4">
+                  integración de jóvenes en los valores individuales
+                </p>
+                <p className="text5">y colectivos.</p>
               </div>
             </div>
           </div>
