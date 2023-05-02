@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 html,body{
-  min-height:calc(100vh - (175.75rem + 14.75rem));
-  width: 100%;
+  width: auto;
+  margin: 0;
+  padding: 0;
   scroll-behavior: smooth;
 }
