@@ -1,9 +1,9 @@
 /* all main core content */
 
 .mainContainer {
-    height: 166.688rem;
+    min-height: 166.688rem;
     width: auto;
-    background-image: url('../img/arrowMain.png'), linear-gradient(to bottom, #000000, #040404, #080707, #0c0b0b, #0f0e0e);
+    background-image: url('../assets/img/arrowMain.png'), linear-gradient(to bottom, #000000, #040404, #080707, #0c0b0b, #0f0e0e);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 100% auto, auto;
@@ -51,7 +51,7 @@
 }
 
 .cardOne {
-    background-image: url(../img/cardOne.png);
+    background-image: url(../assets/img/cardOne.png);
     background-size: cover;
     width: 661px;
     height: 516.49px;
@@ -163,7 +163,7 @@
 }
 
 .cardTwo {
-    background-image: url(../img/cardTwo.png);
+    background-image: url(../assets/img/cardTwo.png);
     background-size: cover;
     width: 661px;
     height: 516.49px;
@@ -195,9 +195,12 @@
     font-family: 'Lato';
     font-weight: 400;
     font-size: 20px;
+    border-radius: 20px 0px 20px 20px;
+    height: 88px;
+    margin: 1.2rem 2rem;
     line-height: 32px;
     opacity: 0.9;
-    box-shadow: -19px 82px 34px rgba(0, 0, 0, 0.01), -11px 46px 28px rgba(0, 0, 0, 0.05), -5px 20px 21px rgba(0, 0, 0, 0.09), -1px 5px 12px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    background-color: #922630;
 }
 
 .cardTwoText {
@@ -222,52 +225,50 @@
     font-weight: 900;
 }
 
-.cardTwoTextContainer {
-    background-color: #922630;
-    box-shadow: -19px 82px 34px rgba(0, 0, 0, 0.01), -11px 46px 28px rgba(0, 0, 0, 0.05), -5px 20px 21px rgba(0, 0, 0, 0.09), -1px 5px 12px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 20px 0px 20px 20px;
-    height: 88px;
-    margin: 1.2rem 2rem;
-}
-
 .cardTwoTextInfo {
-    font-family: 'Lato';
-    width: 30rem;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    align-items: center;
     text-align: center;
+    white-space: nowrap;
+    margin: 2rem .2rem;
 }
 
 .text1 {
     color: white;
+    text-align: left;
+    margin: 0 2.3rem;
 }
 
 .text2 {
     color: white;
     text-align: left;
-    margin: 0 0 0 2.3rem;
+    margin: 0 1.9rem;
+    padding: 0.4rem;
 }
 
 .text3 {
     color: white;
-    margin: .6rem;
-    padding-right:4.8rem ;
-    width: 34rem;
+    text-align: left;
+    margin: .6rem 2.2rem;
 }
+
 .text4 {
     color: white;
     margin: .5rem;
-    padding-right: 5.7rem;
-    width: 36rem;
+    text-align: left;
+    margin: .4rem 2.2rem;
 }
+
 .text5 {
     color: white;
-    margin: .5rem ;
+    margin: .5rem;
     padding-left: 1.8rem;
     width: 36rem;
-    text-align: left ;
+    text-align: left;
 }
 
 .xTwoContainer {
@@ -283,3 +284,156 @@
 }
 
 /* ---------------------------------------------------------cardTwo----------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------cardThree----------------------------------------------------------------------- */
+/* CardOne */
+.cardThreeContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardThree {
+    background-image: url(../assets/img/cardThree.png);
+    background-size: cover;
+    width: 661px;
+    height: 516.49px;
+    border-radius: 60px 60px 0px 60px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-top: 4rem;
+    margin-left: -20px;
+    box-shadow: 16px 140px 56px rgba(0, 0, 0, 0.01), 9px 79px 48px rgba(0, 0, 0, 0.05), 4px 35px 35px rgba(0, 0, 0, 0.09), 1px 9px 19px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cardThreeInfo {
+    width: 635px;
+    height: 435px;
+    background: #000000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 60px;
+    margin-top: 18rem;
+    margin-left: -2rem;
+    z-index: 1;
+}
+
+.cardThreeText {
+    color: white;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 60px;
+    text-align: center;
+    margin: 2rem 0 0 18rem;
+}
+
+.cardListContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+    width: 30rem;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.cardUlList {
+    display: inline;
+    color: white;
+    list-style-type: none;
+    margin: 3em 0 0 1rem;
+}
+
+.cardList {
+    margin: -3.2rem 1rem 0 0;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.cardList:before {
+    content: "●";
+    font-size: 15px;
+    line-height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.cardUlList2 {
+    display: inline;
+    color: white;
+    list-style-type: none;
+    margin: 2.8em 0 0 1rem;
+}
+
+.cardList2 {
+    margin: -3.2rem 1rem 0 0;
+    display: flex;
+    align-items: center;
+    width: 17rem;
+}
+
+.cardList2:before {
+    content: "●";
+    font-size: 15px;
+    line-height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.xContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 3rem;
+    margin-top: -0.9rem;
+    letter-spacing: -0.2rem;
+}
+
+.x {
+    margin-left: 4px;
+}
+
+/* ---------------------------------------------------------cardThree----------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------mainBtn----------------------------------------------------------------------- */
+.btn-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.8rem;
+    line-height: 3.8rem;
+    width: 16rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    background-color: #922630;
+    border-radius: 10px;
+    transition: transform 0.2s ease-out;
+}
+
+.btn-oldLinkMain {
+    color: white;
+}
+
+.btn-main:hover {
+    transform: scale(1.1);
+    color: white;
+    z-index: 1;
+}
+
+.btn-oldLinkMain:hover {
+    color: white;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
+
+/* ---------------------------------------------------------mainBtn----------------------------------------------------------------------- */
+/* ---------------------------------------------------------scrolls----------------------------------------------------------------------- */
+/* ---------------------------------------------------------scrolls----------------------------------------------------------------------- */

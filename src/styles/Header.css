@@ -20,7 +20,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/arrowHeader.svg'), url('../img/arrowHeader2.svg'), url('../img/girl-catch.png');
+    background-image: url('../assets/img/arrowHeader.svg'), url('../assets/img/arrowHeader2.svg'), url('../assets/img/girl-catch.png');
     background-repeat: no-repeat;
     background-size: contain, contain, cover;
     background-position: 0, 0, top;

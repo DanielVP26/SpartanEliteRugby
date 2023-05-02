@@ -12,20 +12,19 @@ function Header() {
           </a>
           <ul>
             <li>
-              <a className="link" href="/">
+              <a className="link" href="#queEsSpartan">
                 Conócenos
               </a>
             </li>
             <li>
-              <a className="link" href="/">
+              <a className="link" href="#nuestrosValores">
                 ¿Porqué apoyarnos?
               </a>
             </li>
             <li>
               <div className="btn-nav">
                 <a
-                  href="https://spartaneliterugby.es/"
-                  target="_blank"
+                  href="#queOfrecemos"
                   className="btn-oldLink"
                 >
                   Hazte patrocinador
