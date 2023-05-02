@@ -26,7 +26,7 @@ function Main() {
                   <X />
                 </div>
               </div>
-                <h2 className="cardOneText">¿Qué es Spartan?</h2>
+              <h2 className="cardOneText">¿Qué es Spartan?</h2>
               <div className="cardTextContainer">
                 <p className="cardOneParagraph1">
                   Somos un campus de tecnificación y nacimos para representar
@@ -37,12 +37,41 @@ function Main() {
                 </p>
                 <p className="cardOneParagraph3">la práctica del Rugby.</p>
                 <p className="cardOneParagraph4">
-                  Nuestro staff técnico siempre se compone 
+                  Nuestro staff técnico siempre se compone
                 </p>
                 <p className="cardOneParagraph5">
-                   de jugadores y jugadoras de la selección Española de Rugby y
+                  de jugadores y jugadoras de la selección Española de Rugby y
                 </p>
-                <p className="cardOneParagraph6">Seleccionadores Autonómicos.</p>
+                <p className="cardOneParagraph6">
+                  Seleccionadores Autonómicos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className="cardTwoContainer">
+            <div className="cardTwo"></div>
+            <div className="cardTwoInfo">
+              <div className="xTwoContainer">
+                <div className="xTwo">
+                  <X />
+                </div>
+                <div className="xTwo">
+                  <X />
+                </div>
+                <div className="xTwo">
+                  <X />
+                </div>
+              </div>
+              <h2 className="cardTwoText">Nuestros valores</h2>
+              <div className="cardTwoTextContainer">
+                <p className="keyWord">
+                  Lealtad - Sacrificio - Esfuerzo
+                </p>
+                <p className="keyWord2">
+                  Compromiso - Trabajo - Convicción
+                </p>
               </div>
             </div>
           </div>
