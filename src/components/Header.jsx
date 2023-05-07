@@ -7,7 +7,7 @@ function Header() {
     <>
       <header className="headerContainer">
         <nav>
-          <a href="/" class="brand">
+          <a href="/" className="brand">
             <Brand />
           </a>
           <ul>
@@ -23,11 +23,7 @@ function Header() {
             </li>
             <li>
               <div className="btn-nav">
-                <a
-                  href="https://spartaneliterugby.es/"
-                  target="_blank"
-                  className="btn-oldLink"
-                >
+                <a href="https://spartaneliterugby.es/" target="_blank" className="btn-oldLink">
                   Hazte patrocinador
                 </a>
               </div>
