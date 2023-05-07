@@ -1,0 +1,148 @@
+/* background & specifications */
+
+header {
+    width: auto;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.headerContainer {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.headerContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/arrowHeader.svg'), url('../img/arrowHeader2.svg'), url('../img/girl-catch.png');
+    background-repeat: no-repeat;
+    background-size: contain, contain, cover;
+    background-position: 0, 0, top;
+    z-index: -1;
+}
+
+/* background & specifications */
+
+/* navbar */
+.brand {
+    margin: 2rem;
+}
+
+nav {
+    height: 7rem;
+    width: auto;
+    margin: 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    align-items: center;
+    padding: 2rem;
+}
+
+a {
+
+    margin: 0 0rem;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+a:hover {
+    color: #922630;
+}
+
+.btn-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 3.8rem;
+    width: 16rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    background-color: #922630;
+    border-radius: 10px;
+    transition: transform 0.2s ease-out;
+    z-index: 2;
+}
+
+.btn-oldLink {
+    color: white;
+}
+
+.btn-nav:hover {
+    transform: scale(1.1);
+    color: white;
+    z-index: 1;
+}
+
+.btn-oldLink:hover {
+    color: white;
+}
+
+/* navbar */
+
+/* Header Main Content */
+.sloganContainer {
+    width: 559px;
+    margin: 11rem 17.4rem;
+}
+.slogan {
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    list-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    width: 559px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* Header Main Content */
+
+/* Grey bar to separate sections */
+.greyBar {
+    display: flex;
+    background: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    position: absolute;
+}
+
+.greyBar p {
+    color: white;
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+/* Grey bar to separate sections */
