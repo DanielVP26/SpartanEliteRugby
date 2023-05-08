@@ -11,27 +11,19 @@ header {
     position: relative;
     height: 100vh;
     overflow: hidden;
-}
-
-.headerContainer::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     background-image: url('../assets/img/arrowHeader.svg'), url('../assets/img/arrowHeader2.svg'), url('../assets/img/girl-catch.png');
     background-repeat: no-repeat;
     background-size: contain, contain, cover;
-    background-position: 0, 0, top;
-    z-index: -1;
+    background-position: 0 0, 0 0, 0 50%;
 }
+
+
 
 /* background & specifications */
 
 /* navbar */
 .brand {
-    margin: 2rem;
+    margin: 0 2.5rem 1rem;
 }
 
 nav {
@@ -57,10 +49,10 @@ li {
 }
 
 a {
-
     margin: 0 0rem;
     text-decoration: none;
     font-size: 18px;
+    line-height: 18px;  
     color: black;
 }
 
@@ -102,8 +94,8 @@ a:hover {
 
 /* Header Main Content */
 .sloganContainer {
-    width: 559px;
-    margin: 11rem 17.4rem;
+    width: 684px;
+    margin: 9rem 18rem;
 }
 .slogan {
     line-height: 50px;
@@ -111,15 +103,14 @@ a:hover {
     text-align: left;
     font-family: 'Lato', sans-serif;
     list-style: italic;
-    font-weight: bold;
-    font-size: 40px;
+    font-size: 44px;
     width: 559px;
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
+    flex-direction: row;
     align-items: center;
+    white-space: nowrap;
 }
-
 
 /* Header Main Content */
 
@@ -143,6 +134,7 @@ a:hover {
     font-size: 32px;
     line-height: 38px;
     text-align: center;
+    padding: 2rem;
 }
 
 /* Grey bar to separate sections */

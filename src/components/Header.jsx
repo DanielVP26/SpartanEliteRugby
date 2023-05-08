@@ -1,5 +1,6 @@
 import React from "react";
 import Brand from "./Brand.jsx";
+import VectorHead from "./VectorHead.jsx";
 import "../styles/Header.css";
 
 function Header() {
@@ -32,7 +33,9 @@ function Header() {
           <h2 className="slogan">hacia adelante</h2>
         </div>
         <div className="greyBar">
+          <VectorHead />
           <p>Apoya a Spartan e impulsa el crecimiento de tu marca</p>
+          <VectorHead />
         </div>
       </header>
     </>
