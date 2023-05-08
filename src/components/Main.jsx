@@ -133,17 +133,19 @@ function Main() {
             </Fade>
           </div>
         </section>
-        <div className="btn-container">
-          <div className="btn-main">
-            <a
-              href="https://spartaneliterugby.es/"
-              target="_blank"
-              className="btn-oldLinkMain"
-            >
-              Conoce más
-            </a>
+        <Fade Top>
+          <div className="btn-container">
+            <div className="btn-main">
+              <a
+                href="https://spartaneliterugby.es/"
+                target="_blank"
+                className="btn-oldLinkMain"
+              >
+                Conoce más
+              </a>
+            </div>
           </div>
-        </div>
+        </Fade>
       </main>
     </>
   );
