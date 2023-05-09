@@ -7,6 +7,7 @@ function Main() {
   return (
     <>
       <main className="mainContainer">
+              <div id="queEsSpartan"></div>
         <section>
           <div className="vector">
             <Vector />
@@ -17,7 +18,6 @@ function Main() {
               <div className="cardOne"></div>
             </Fade>
             <Fade right>
-              <div id="queEsSpartan"></div>
               <div className="cardOneInfo">
                 <div className="xContainer">
                   <div className="x">
