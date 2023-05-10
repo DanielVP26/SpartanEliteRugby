@@ -1,0 +1,249 @@
+/* import lato font */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #000000;
+}
+
+.vector {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  width: 40rem;
+  margin-top: 4.6rem;
+}
+.lato_text {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 20px;
+}
+
+/* SCOPE */
+
+.scope {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+}
+.scope_container {
+  background-color: #000000;
+  color: #f3fbf9;
+  width: 85%;
+  font-family: "Lato", sans-serif;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-top-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+.scope_container_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.8rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.scope_container_info {
+  padding-block: 2.8rem;
+  display: flex;
+  justify-content: space-around;
+}
+.scope_container_info_text {
+  display: flex;
+  gap: 1.4rem;
+  align-items: center;
+  border-right: 1px solid #f3fbf9;
+  padding-block: 1rem;
+  padding-inline: 1.5rem;
+}
+.scope_container_info_text:last-child {
+  border-right: none;
+}
+.scope_container_info_text h3 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.scope_container_info_text h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  width: 12rem;
+}
+
+/* BY SUPPORTING */
+
+.by_supporting {
+  display: flex;
+  justify-content: center;
+  margin-top: 5.5rem;
+}
+.by_supporting_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  font-family: "Lato", sans-serif;
+}
+.by_supporting_container_title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1.8rem;
+}
+.by_supporting_container_info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2.8rem;
+  width: 100%;
+}
+.by_supporting_container_info_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+.by_supporting_container_info_text h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  width: 19rem;
+  text-align: center;
+}
+
+/* BRAND PRESENCE */
+
+.BrandPresence {
+  display: flex;
+  justify-content: center;
+  margin-top: 7.4rem;
+}
+.BrandPresenceContainer {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  font-family: "Lato", sans-serif;
+  flex-direction: column;
+  color: #f3fbf9;
+  position: relative;
+  z-index: 1;
+}
+.BrandPresenceContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top-right-radius: 60px;
+  height: 28rem;
+  border-bottom-left-radius: 60px;
+  background-color: #000000;
+}
+.BrandPresenceTitle {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 2.9rem;
+  z-index: 1;
+}
+.BrandPresenceTitleContaienr {
+  z-index: 1;
+}
+.BrandPresenceInfo {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 3rem;
+  padding-inline: 5rem;
+  z-index: 1;
+}
+.BrandPresenceInfo_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+  text-align: center;
+  padding: 5px;
+  height: 20rem;
+  width: 20rem;
+  position: relative;
+}
+
+.BrandPresenceInfo_item img {
+  bottom: -5rem;
+  position: absolute;
+}
+.BrandPresenceInfo_item p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 1.5rem;
+}
+
+/* PARTNER BTN */
+
+.partnerBtnContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.partnerBtn {
+  padding-block: 1rem;
+  padding-inline: 2.5rem;
+  background-color: #922630;
+  border-radius: 10px;
+  color: #f3fbf9;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+/* PARTNER CAROUSEL */
+
+.partnerCarouselContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 6.2rem;
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 40%, #922630 40%, #922630 100%);
+  padding-bottom: 5rem;
+}
+.partnerCarousel {
+  background-color: #000000;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  height: 20rem;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #f3fbf9;
+  padding-inline: 9rem;
+  font-family: "Lato", sans-serif;
+}
+.partnerCarouselTitle {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-block: 2.9rem;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  color: #f3fbf9;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 13rem;
+}
