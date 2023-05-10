@@ -1,8 +1,8 @@
 import React from "react";
-import BrandPresence1 from "../img/brand-presence1.png";
-import BrandPresence2 from "../img/brand-presence2.png";
-import BrandPresence3 from "../img/brand-presence3.png";
-import BrandPresence4 from "../img/brand-presence4.png";
+import BrandPresence1 from "../assets/img/brand-presence1.png";
+import BrandPresence2 from "../assets/img/brand-presence2.png";
+import BrandPresence3 from "../assets/img/brand-presence3.png";
+import BrandPresence4 from "../assets/img/brand-presence4.png";
 
 const BrandPresence = () => {
   return (
