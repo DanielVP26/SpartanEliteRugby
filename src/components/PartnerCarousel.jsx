@@ -2,17 +2,17 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 import "swiper/css";
-import img1 from "../img/PartnersBrands/1.png";
-import img2 from "../img/PartnersBrands/2.png";
-import img3 from "../img/PartnersBrands/3.png";
-import img4 from "../img/PartnersBrands/4.png";
-import img5 from "../img/PartnersBrands/5.png";
-import img6 from "../img/PartnersBrands/6.png";
-import img7 from "../img/PartnersBrands/7.png";
-import img8 from "../img/PartnersBrands/8.png";
-import img9 from "../img/PartnersBrands/9.png";
-import img10 from "../img/PartnersBrands/10.png";
-import img11 from "../img/PartnersBrands/11.png";
+import img1 from "../assets/img/PartnersBrands/1.png";
+import img2 from "../assets/img/PartnersBrands/2.png";
+import img3 from "../assets/img/PartnersBrands/3.png";
+import img4 from "../assets/img/PartnersBrands/4.png";
+import img5 from "../assets/img/PartnersBrands/5.png";
+import img6 from "../assets/img/PartnersBrands/6.png";
+import img7 from "../assets/img/PartnersBrands/7.png";
+import img8 from "../assets/img/PartnersBrands/8.png";
+import img9 from "../assets/img/PartnersBrands/9.png";
+import img10 from "../assets/img/PartnersBrands/10.png";
+import img11 from "../assets/img/PartnersBrands/11.png";
 
 const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11];
 const PartnerCarousel = () => {

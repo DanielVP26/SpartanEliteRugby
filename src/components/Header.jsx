@@ -1,5 +1,6 @@
 import React from "react";
 import Brand from "./Brand.jsx";
+import VectorHead from "./VectorHead.jsx";
 import "../styles/Header.css";
 
 function Header() {
@@ -7,23 +8,19 @@ function Header() {
     <>
       <header className="headerContainer">
         <nav>
-          <a href="/" className="brand">
+          <a href="#" class="brand">
             <Brand />
           </a>
           <ul>
             <li>
-              <a className="link" href="/">
-                Conócenos
-              </a>
+              <a href="#queEsSpartan">Conócenos</a>
             </li>
             <li>
-              <a className="link" href="/">
-                ¿Porqué apoyarnos?
-              </a>
+              <a href="#nuestrosValores">¿Porqué apoyarnos?</a>
             </li>
             <li>
               <div className="btn-nav">
-                <a href="https://spartaneliterugby.es/" target="_blank" className="btn-oldLink">
+                <a href="#queOfrecemos" className="btn-oldLink">
                   Hazte patrocinador
                 </a>
               </div>
@@ -36,7 +33,9 @@ function Header() {
           <h2 className="slogan">hacia adelante</h2>
         </div>
         <div className="greyBar">
+          <VectorHead />
           <p>Apoya a Spartan e impulsa el crecimiento de tu marca</p>
+          <VectorHead />
         </div>
       </header>
     </>

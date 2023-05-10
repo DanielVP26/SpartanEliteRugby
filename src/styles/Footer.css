@@ -1,0 +1,46 @@
+.footerBackground {
+    background-color: black;
+    height: 14.75rem;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.adress {
+    text-align: left;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 8rem;
+}
+
+.contact {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.logoFooter {
+    text-align: center;
+    margin-left: 30rem;
+}
+
+.social {
+    color: white;
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    margin: 0 auto -4rem;
+    padding-left: 5rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: .9rem .5rem;
+}
