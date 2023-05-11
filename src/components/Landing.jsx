@@ -4,6 +4,7 @@ import Main from "./Main.jsx";
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import WhySupportUs from "./WhySupportUs";
+import FormContact from "./FormContact";
 
 function Landing() {
   return (
@@ -11,6 +12,7 @@ function Landing() {
       <Header />
       <Main />
       <WhySupportUs />
+      <FormContact />
       <Footer />
     </>
   );
