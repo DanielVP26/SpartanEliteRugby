@@ -11,16 +11,16 @@ const VectorHead = () => {
         <path
           d="M12.25 22.75L21 31.5L29.75 22.75"
           stroke="#F3F3F3"
-          stroke-width="3.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="3.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M12.25 10.5L21 19.25L29.75 10.5"
           stroke="#F3F3F3"
-          stroke-width="3.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="3.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     </>
