@@ -8,7 +8,7 @@ function Header() {
     <>
       <header className="headerContainer">
         <nav>
-          <a href="#" class="brand">
+          <a href="#" className="brand">
             <Brand />
           </a>
           <ul>
