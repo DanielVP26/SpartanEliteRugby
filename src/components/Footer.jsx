@@ -27,13 +27,14 @@ function Footer() {
                   href="https://www.facebook.com/spartaneliterugby/"
                   className="Icon1"
                   alt="facebookLink"
+                  target="about:blank"
                 >
                   <Icon1 />
                 </a>
                 <a
                   href="https://www.instagram.com/spartanelite_rugby/?hl=es"
                   className="Icon2"
-                  alt="instagramLink"
+                  alt="instagramLink" target="about:blank"
                 >
                   <Icon2 />
                 </a>
@@ -41,6 +42,7 @@ function Footer() {
                   href="https://www.youtube.com/@spartaneliterugby8960"
                   className="Icon3"
                   alt="youtubeLink"
+                  target="about:blank"
                 >
                   <Icon3 />
                 </a>

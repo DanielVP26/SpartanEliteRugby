@@ -97,9 +97,20 @@ a:hover {
     width: 684px;
     margin: 9rem 18rem;
 }
+.slogan1{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 44px;
+    width: 559px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+}
 .slogan {
     line-height: 50px;
-    letter-spacing: 0em;
     text-align: left;
     font-family: 'Lato', sans-serif;
     list-style: italic;

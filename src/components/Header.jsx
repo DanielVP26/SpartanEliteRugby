@@ -28,7 +28,7 @@ function Header() {
           </ul>
         </nav>
         <div className="sloganContainer">
-          <h2 className="slogan">Cuando nadie se queda atrás,</h2>
+          <h2 className="slogan1">Cuando nadie se queda atrás,</h2>
           <h2 className="slogan">todo el mundo camina</h2>
           <h2 className="slogan">hacia adelante</h2>
         </div>
