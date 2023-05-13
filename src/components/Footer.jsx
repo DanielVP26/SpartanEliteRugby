@@ -34,7 +34,8 @@ function Footer() {
                 <a
                   href="https://www.instagram.com/spartanelite_rugby/?hl=es"
                   className="Icon2"
-                  alt="instagramLink" target="about:blank"
+                  alt="instagramLink"
+                  target="about:blank"
                 >
                   <Icon2 />
                 </a>
