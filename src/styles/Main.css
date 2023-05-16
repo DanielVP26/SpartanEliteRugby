@@ -1,12 +1,12 @@
 /* all main core content */
 
 .mainContainer {
-    min-height: 166.688rem;
+    height: auto;
     width: auto;
-    background-image: url('../assets/img/arrowMain.png'), linear-gradient(to bottom, #000000, #040404, #080707, #0c0b0b, #0f0e0e);
+    background-image: url('../assets/img/arrowMain.png');
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 100% auto, auto;
+    background-size: 100% 100%;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     overflow: hidden;
@@ -18,7 +18,6 @@
 
 .info {
     height: 166rem;
-    border: 1px solid red
 }
 
 .vector {
@@ -52,8 +51,8 @@
 .cardOne {
     background-image: url(../assets/img/cardOne.png);
     background-size: cover;
-    width: 661px;
-    height: 516.49px;
+    width: 48.313rem;
+    height: 37.75rem;
     border-radius: 60px 60px 0px 60px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     margin-top: 4rem;
@@ -62,13 +61,13 @@
 }
 
 .cardOneInfo {
-    width: 635px;
-    height: 435px;
+    width: 39.6rem;
+    height: 25rem;
     background: #000000;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px 60px;
-    margin-top: 18rem;
-    margin-left: -2rem;
+    margin-top: 12rem;
+    margin-left: -4rem;
     z-index: 1;
 }
 
@@ -77,11 +76,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 492px;
+    height: 224px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
+    margin-left: 8rem;
 }
 
 .cardOneText {
@@ -91,50 +93,40 @@
     font-size: 32px;
     line-height: 60px;
     text-align: center;
-    margin: 3rem 0 0 18rem;
+    margin: 2.4rem 0 0 18rem;
+    padding-bottom: 1rem;
 }
 
 .cardOneParagraph1 {
     color: white;
     margin-top: 1rem;
-    height: 1rem;
-    font-size: 20px;
 }
 
 .cardOneParagraph2 {
     color: white;
-    margin: 0.9rem 0 0 1rem;
-    height: 1rem;
-    font-size: 20px;
+    margin: 0 1rem 0 0;
 }
 
 .cardOneParagraph3 {
     color: white;
-    text-align: right;
-    margin: 0.9rem 0 0 22rem;
-    height: 1rem;
-    font-size: 20px;
+    margin: 0 0 0 4rem;
 }
 
 .cardOneParagraph4 {
     color: white;
-    margin: 3rem 0 0 10rem;
-    height: 1rem;
-    font-size: 20px;
+    margin-top: 1rem;
+    margin-left: 4rem;
 }
 
 .cardOneParagraph5 {
     color: white;
-    margin-top: 0.9rem;
-    height: 1rem;
     font-size: 20px;
+    margin: 0 1rem 0 0;
 }
 
 .cardOneParagraph6 {
     color: white;
-    margin: 0.9rem 0 0 16rem;
-    height: 1rem;
-    font-size: 20px;
+    margin: 0 0 0 6.7rem;
 }
 
 .xContainer {
@@ -165,8 +157,8 @@
 .cardTwo {
     background-image: url(../assets/img/cardTwo.png);
     background-size: cover;
-    width: 661px;
-    height: 516.49px;
+    width: 48.313rem;
+    height: 37.75rem;
     border-radius: 60px 60px 0px 60px;
     margin-top: 4rem;
     margin-right: -120px;
@@ -180,8 +172,8 @@
     background: #000000;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 60px 0;
-    margin-top: 18rem;
-    margin-right: -2rem;
+    margin-top: 10rem;
+    margin-right:-4rem;
     z-index: 1;
 }
 
@@ -290,14 +282,14 @@
 .cardThreeContainer {
     display: flex;
     flex-direction: row;
-    padding-top: 3rem ;
+    padding-top: 3rem;
 }
 
 .cardThree {
     background-image: url(../assets/img/cardThree.png);
     background-size: cover;
-    width: 661px;
-    height: 516.49px;
+    width: 48.313rem;
+    height: 37.75rem;
     border-radius: 60px 60px 0px 60px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     margin-top: 4rem;
@@ -311,8 +303,8 @@
     background: #000000;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px 60px;
-    margin-top: 18rem;
-    margin-left: -2rem;
+    margin-top: 11rem;
+    margin-left: -4rem;
     z-index: 1;
 }
 

@@ -1,0 +1,234 @@
+@media screen and (max-width: 881px) {
+    header {
+        height: 100vh;
+    }
+
+    .headerContainer {
+        height: 100vh;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .sloganContainer {
+        margin: 4rem auto;
+        width: 80%;
+        max-width: 684px;
+    }
+
+    .slogan1,
+    .slogan {
+        font-size: min(2vw, 2rem);
+        width: 80%;
+        justify-content: center;
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    .greyBar {
+        height: 40px;
+    }
+
+    .greyBar p {
+        font-size: 24px;
+        padding: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 881px) {
+    .headerContainer {
+        background-image: url('../assets/img/ResponsiveHeader2.png'), url("../assets/img/responsiveHeader.png");
+        min-height: 1000px;
+        width: 100vw;
+    }
+
+    ul {
+        display: none;
+    }
+
+    /* Header Main Content */
+    .sloganContainer {
+        width: 684px;
+        margin: 6rem 2rem;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .slogan1 {
+        font-weight: normal;
+        font-size: min(7vw, 44px);
+        line-height: 0.6;
+        width: 559px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: center;
+        white-space: nowrap;
+    }
+
+    .slogan {
+        line-height: 0.6;
+        list-style: italic;
+        font-size: min(7vw, 44px);
+        width: 559px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: center;
+        white-space: nowrap;
+    }
+
+    /* Header Main Content */
+    .greyBar {
+        display: flex;
+        background: rgba(0, 0, 0, 0.7);
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 11rem;
+        bottom: 0;
+        position: absolute;
+    }
+
+    .greyBar p {
+        min-width: 26rem;
+        color: white;
+        font-family: 'Lato';
+        font-style: italic;
+        font-weight: 500;
+        font-size: min (16vh, 32px);
+        line-height: 38px;
+        text-align: center;
+        margin-bottom: 3rem;
+        padding: 2rem;
+    }
+
+    .vectorHeadResponsive {
+        display: block;
+        position: absolute;
+        margin-top: 3rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .vectorHead {
+        display: none;
+    }
+
+    .partnerBtnContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .partnerBtn {
+        display: inline-block;
+        padding: 1em 2.5%;
+        padding-inline: 2.5rem;
+        margin: 14rem;
+        padding-inline: 2.5rem;
+        background-color: #922630;
+        border-radius: 10px;
+        color: #f3fbf9;
+        min-width: 15rem;
+        font-size: 1rem;
+        font-weight: 700;
+        font-family: "Lato", sans-serif;
+        border: none;
+        cursor: pointer;
+    }
+
+    .brand {
+        margin-left: -1rem;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 480px) {
+    .slogan1 {
+        line-height: 1rem !important;
+    }
+
+    .slogan {
+        line-height: 1rem !important;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 0px) {
+    .headerContainer {
+        background-image: url("../assets/img/responsiveHeader.png");
+        background-size: cover;
+    }
+
+    ul {
+        display: none;
+
+    }
+
+    /* Header Main Content */
+    .slogan1 {
+        line-height: 0.3rem;
+        font-size: min(6vw, 2.75rem);
+        justify-content: flex-start;
+    }
+
+    .slogan {
+        line-height: 0.3rem;
+        font-size: min(6vw, 2.75rem);
+        justify-content: flex-start;
+    }
+
+    /* Header Main Content */
+    .greyBar {
+        display: flex;
+        background: rgba(0, 0, 0, 0.7);
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 11rem;
+        bottom: 0;
+        position: absolute;
+    }
+
+    .greyBar p {
+        min-width: 26rem;
+        color: white;
+        font-family: 'Lato';
+        font-style: italic;
+        font-weight: 500;
+        font-size: min (16vh, 32px);
+        line-height: 38px;
+        text-align: center;
+        margin-bottom: 3rem;
+        padding: 2rem;
+    }
+
+    .vectorHeadResponsive {
+        display: block;
+        position: absolute;
+        margin-top: 3rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .vectorHead {
+        display: none;
+    }
+
+    .partnerBtnContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .partnerBtn {
+        display: inline-block;
+        background-color: #922630;
+        border-radius: 10px;
+        color: #f3fbf9;
+        min-width: 15rem;
+        font-size: 1rem;
+        font-weight: 700;
+        font-family: "Lato", sans-serif;
+        border: none;
+        cursor: pointer;
+    }
+}

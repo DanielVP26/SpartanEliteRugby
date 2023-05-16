@@ -7,7 +7,7 @@ function Main() {
   return (
     <>
       <main className="mainContainer">
-              <div id="queEsSpartan"></div>
+        <div id="queEsSpartan"></div>
         <section>
           <div className="vector">
             <Vector />
@@ -33,21 +33,22 @@ function Main() {
                 <h2 className="cardOneText">¿Qué es Spartan?</h2>
                 <div className="cardTextContainer">
                   <p className="cardOneParagraph1">
-                    Somos un campus de tecnificación y nacimos para representar
+                    Somos un campus de tecnificación y nacimos para
                   </p>
                   <p className="cardOneParagraph2">
-                    la fortaleza, disciplina y honor del ideal espartano a
-                    través de
+                    representar la fortaleza, disciplina y honor del ideal
                   </p>
-                  <p className="cardOneParagraph3">la práctica del Rugby.</p>
+                  <p className="cardOneParagraph3">
+                    espartano a través de la práctica del Rugby.
+                  </p>
                   <p className="cardOneParagraph4">
                     Nuestro staff técnico siempre se compone
                   </p>
                   <p className="cardOneParagraph5">
-                    de jugadores y jugadoras de la selección Española de Rugby y
+                    de jugadores y jugadoras de la selección Española de
                   </p>
                   <p className="cardOneParagraph6">
-                    Seleccionadores Autonómicos.
+                    Rugby y Seleccionadores Autonómicos.
                   </p>
                 </div>
               </div>

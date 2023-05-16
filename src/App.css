@@ -1,11 +1,16 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
-html,body{
-  width: auto;
+
+html,
+body {
+  width: 100vw;
+  height: 166.688rem;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-}
+  /* overflow porque el carousel genera el overflow se ve */
+  overflow-x: hidden;
+}   
