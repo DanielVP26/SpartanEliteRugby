@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/Footer.css";
 import LogoFooter from "./LogoFooter";
 import Icon1 from "./Icon1";
 import Icon2 from "./Icon2";

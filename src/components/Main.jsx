@@ -1,7 +1,7 @@
 import React from "react";
 import Vector from "./Vector";
+import VectorResponsive from "./VectorResponsive";
 import X from "./X";
-import "../styles/Main.css";
 import Fade from "react-reveal/Fade";
 function Main() {
   return (
@@ -10,6 +10,8 @@ function Main() {
         <div id="queEsSpartan"></div>
         <section>
           <div className="vector">
+            
+            <VectorResponsive/>
             <Vector />
             <h1 className="textInfo">conócenos</h1>
           </div>

@@ -1,0 +1,215 @@
+@media screen and (min-width:925px) and (max-width:1331px) {
+    .cardContainer {
+        width: 95%;
+    }
+
+    .cardOne {
+        background-repeat: no-repeat;
+        background-size: contain;
+        box-shadow: none;
+    }
+
+    .cardOneText {
+        margin-left: 6rem;
+        width: 85%;
+    }
+
+    .cardTextContainer {
+        width: 95%;
+        margin-left: 1rem;
+    }
+
+    .cardTwo {
+        background-repeat: no-repeat;
+        background-size: contain;
+        box-shadow: none;
+    }
+
+    .cardTwoInfo {
+        margin-left: -2rem;
+        margin-top: 8rem;
+        height: 25rem;
+    }
+
+    .cardThreeContainer {
+        width: 95%;
+    }
+
+    .cardThree {
+        background-repeat: no-repeat;
+        background-size: contain;
+        box-shadow: none;
+    }
+
+    .cardThreeInfo {
+        margin-left: -2rem;
+        margin-top: 8rem;
+        width: 60%;
+        height: 25rem;
+    }
+
+    .cardThreeText {
+        margin-left: 12rem;
+    }
+
+    .cardListContainer {
+        width: 90%;
+    }
+
+    .cardListContainer ul {
+        margin-right: -3rem;
+    }
+
+
+}
+
+@media screen and (min-width:600px) and (max-width:924px) {
+    .cardContainer {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardOne {
+        background-repeat: no-repeat;
+        background-size: contain;
+        box-shadow: none;
+    }
+
+    .cardOneInfo {
+        margin-left: -2rem;
+        margin-top: 8rem;
+        width: 60%;
+        height: 25rem;
+    }
+
+    .cardOneText {
+        margin-top: -0.2rem;
+        margin-left: 2rem;
+        width: 80%;
+    }
+
+    .cardTextContainer {
+        height: 90%;
+        width: 100%;
+        margin-left: 4%;
+    }
+
+    .cardTwoContainer {
+        width: 90%;
+    }
+
+    .cardTwo {
+        background-repeat: no-repeat;
+        background-size: contain;
+        box-shadow: none;
+    }
+
+    .cardTwoInfo {
+        margin-left: -2rem;
+        margin-top: 8rem;
+        width: 60%;
+        height: 25rem;
+    }
+
+    .cardThreeContainer {
+        width: 90%;
+    }
+
+    .cardThree {
+        background-repeat: no-repeat;
+        background-size: contain;
+        box-shadow: none;
+    }
+
+    .cardThreeInfo {
+        margin-left: -2rem;
+        margin-top: 8rem;
+        width: 60%;
+        height: 25rem;
+    }
+
+    .cardThreeText {
+        margin-left: 12rem;
+    }
+
+    .cardUlList {
+        width: 50%;
+        margin-left: -1rem;
+    }
+
+
+}
+
+@media screen and (min-width: 359px) and (max-width: 924px) {
+    .v {
+        display: none;
+    }
+
+    .vector {
+        margin: -1.6rem 0 2rem 0;
+        width: 100%;
+    }
+
+    .textInfo {
+        display: flex;
+        align-items: center;
+        height: 5rem;
+        margin-left: -0.3rem;
+    }
+
+    .responsiveVectorMain {
+        margin-left: 0.2rem;
+    }
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardOne {
+        background-repeat: no-repeat;
+        background-size: contain;
+        box-shadow: none;
+        margin-top: -0.2rem;
+        margin-bottom: -38rem;
+    }
+
+    .cardOneInfo {
+        margin-left: 4rem;
+        width: min(80vw, 39.6rem);
+        height: min(24vh, 25rem);
+    }
+
+
+}
+
+@media screen and (min-width: 807px) {
+    .responsiveVectorMain {
+        display: none;
+    }
+
+    .v {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:806px) {
+    .responsiveVectorMain {
+        display: none;
+    }
+
+    .v {
+        display: block;
+    }
+
+    .vector {
+        width: 50%;
+    }
+
+    .cardOne {
+        box-shadow: none;
+    }
+}
+
+/* 1328px queda original */

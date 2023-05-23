@@ -2,7 +2,6 @@ import React from "react";
 import Brand from "./Brand.jsx";
 import VectorHead from "./VectorHead.jsx";
 import VectorHeadResponsive from "./VectorHeadResponsive.jsx";
-import "../styles/Header.css";
 
 function Header() {
   return (

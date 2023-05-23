@@ -1,7 +1,7 @@
 const Vector = () => {
   return (
     <>
-      <svg
+      <svg className="v"
         width="202"
         height="34"
         viewBox="0 0 202 34"

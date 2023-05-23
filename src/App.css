@@ -7,10 +7,9 @@
 html,
 body {
   width: 100vw;
-  height: 166.688rem;
+  height: 130.688rem;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
   /* overflow porque el carousel genera el overflow se ve */
-  overflow-x: hidden;
 }   
