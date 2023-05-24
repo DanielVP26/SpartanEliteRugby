@@ -92,45 +92,45 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 78%;
     height: 14rem;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: min(1.8vw, 1.25rem);
+    font-size: min(1.9vw, 1.25rem);
     line-height: 150%;
-    margin-left: 8rem;
+    margin-left: 20%;
 }
 
 .cardOneParagraph1 {
     color: white;
-    margin: 0 1rem;
+    margin: 0 4%;
 }
 
 .cardOneParagraph2 {
     color: white;
-    margin: 0 1rem 0 0;
+    margin: 0 2% 0 0;
 }
 
 .cardOneParagraph3 {
     color: white;
-    margin: 0 0 0 4rem;
+    margin: 0 0 0 13%;
 }
 
 .cardOneParagraph4 {
     color: white;
     margin-top: 1rem;
-    margin-left: 4rem;
+    margin-left: 13%;
 }
 
 .cardOneParagraph5 {
     color: white;
-    margin: 0 1rem 0 0;
+    margin: 0 4% 0 0;
 }
 
 .cardOneParagraph6 {
     color: white;
-    margin: 0 0 0 6.7rem;
+    margin: 0 0 0 21%;
 }
 
 .xContainer {
@@ -216,13 +216,13 @@
 
 .keyWord {
     color: white;
-    font-size: 22px;
+    font-size: 110%;
     font-weight: 900;
 }
 
 .keyWord2 {
     color: white;
-    font-size: 22px;
+    font-size: 110%;
     font-weight: 900;
 }
 
@@ -231,10 +231,10 @@
     justify-content: center;
     font-style: normal;
     font-weight: 400;
-    font-size: min(2vw, 20px);
+    font-size: min(2.6vw, 20px);
     text-align: center;
     white-space: nowrap;
-    margin: 2rem .2rem;
+    margin: 7% 1.6%;
 }
 
 .text1 {
