@@ -300,7 +300,7 @@
     }
 }
 
-@media screen and (min-width: 359px) and (max-width: 492px) {
+@media screen and (min-width: 431px) and (max-width: 492px) {
     .cardOneInfo {
         margin-top: -85.2%;
         height: 32vh;
@@ -360,16 +360,16 @@
     }
 }
 
-@media screen and (min-width: 359px) and (max-width: 430px) {
+@media screen and (min-width: 395px) and (max-width: 430px) {
     .cardOneInfo {
-        margin-top: -103%;
+        margin-top:-95%;
         height: 26vh;
     }
 
     .cardOneText {
         font-size: 6vw;
         margin-left: 12%;
-        margin-top: 2%;
+        margin-top: -3%;
         width: 100%;
     }
 
@@ -379,7 +379,7 @@
     }
 
     .cardTwoInfo {
-        margin-top: -175.4%;
+        margin-top: -150%;
         margin-left: -10%;
         height: 29vh;
     }
@@ -395,19 +395,22 @@
     .cardTwoText {
         font-size: 150%;
     }
+
     .cardTwoTextContainer {
         height: 20%;
+        line-height: 70%;
+        margin-top: -2%;
     }
-
 
     .cardTwoTextInfo {
         font-size: 2.8vw;
         width: 80%;
         margin-left: -7.5%;
+        line-height: 50%;
     }
 
     .cardThreeInfo {
-        margin-top: -100%;
+        margin-top: -93%;
         margin-left: 18%;
         height: 29vh;
     }
@@ -420,8 +423,8 @@
     }
 
     .cardListContainer {
-        height: 28vh;
-        margin-top: 10%;
+        margin-top: -1%;
+        line-height: 100%;
         margin-left: -1%;
         font-size: 2.5vw;
     }
@@ -429,40 +432,90 @@
     .cardUlList {
         width: 180%;
     }
+
+    .cardList:before,
+    .cardList2:before {
+        font-size: 80%;
+        line-height: 20%;
+    }
 }
 
-@media screen and (min-width: 359px) and (max-width: 382px) {
+@media screen and (min-width: 359px) and (max-width: 394px) {
     .cardOneInfo {
-        margin-top: -120%;
+        margin-top: -100%;
         height: 26vh;
     }
+
+    .cardOneText {
+        margin-top: -2%;
+    }
+
+    .cardTextContainer {
+        margin-top: -5%;
+        line-height: 120%;
+    }
+
+    .cardTwoText {
+        font-size: 6vw;
+    }
+
     .cardTwoInfo {
-        margin-top: -210%;
+        margin-top: -170%;
         margin-left: -25%;
-        height: 26vh;
+        height: 27vh;
+    }
+
+    .cardTwoTextInfo {
+        width: 80%;
+        margin-left: -4%;
+        margin-top: -2%;
+        line-height: 70%;
+    }
+
+    .cardTwoTextContainer {
+        height: 23%;
+        margin-top: -1%;
+        line-height: 100%;
+        font-size: 90%;
+    }
+
+    .keyWord {
+        padding-bottom: -12%;
     }
 
     .cardThreeInfo {
-        margin-top: -117%;
+        margin-top: -100%;
         margin-left: 18%;
         height: 26vh;
     }
 
     .cardThreeText {
-        font-size: 7vw;
+        font-size: 6vw;
         margin-left: 16%;
-        margin-top: -1%;
+        margin-top: -5%;
         width: 80%;
     }
 
     .cardListContainer {
-        margin-top: 1%;
+        font-size: 60%;
+        width: 30%;
+        margin-top: -3%;
+        margin-left: -10%;    
+        padding-left: 12%;    
     }
 
     .cardUlList {
         width: 180%;
     }
+
+    .cardList:before,
+    .cardList2:before {
+        font-size: 70%;
+        line-height: 20%;
+    }
 }
+
+
 @media screen and (min-width: 600px) and (max-width:806px) {
     .responsiveVectorMain {
         display: none;
