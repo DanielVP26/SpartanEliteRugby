@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/Footer.css";
 import LogoFooter from "./LogoFooter";
 import Icon1 from "./Icon1";
 import Icon2 from "./Icon2";
@@ -27,6 +26,7 @@ function Footer() {
                   href="https://www.facebook.com/spartaneliterugby/"
                   className="Icon1"
                   alt="facebookLink"
+                  target="about:blank"
                 >
                   <Icon1 />
                 </a>
@@ -34,6 +34,7 @@ function Footer() {
                   href="https://www.instagram.com/spartanelite_rugby/?hl=es"
                   className="Icon2"
                   alt="instagramLink"
+                  target="about:blank"
                 >
                   <Icon2 />
                 </a>
@@ -41,6 +42,7 @@ function Footer() {
                   href="https://www.youtube.com/@spartaneliterugby8960"
                   className="Icon3"
                   alt="youtubeLink"
+                  target="about:blank"
                 >
                   <Icon3 />
                 </a>

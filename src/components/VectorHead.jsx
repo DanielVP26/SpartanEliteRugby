@@ -1,7 +1,7 @@
 const VectorHead = () => {
   return (
     <>
-      <svg
+      <svg className="vectorHead"
         width="42"
         height="42"
         viewBox="0 0 42 42"

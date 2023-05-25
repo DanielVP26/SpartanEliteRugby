@@ -9,12 +9,12 @@ header {
 
 .headerContainer {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
-    background-image: url('../assets/img/arrowHeader.svg'), url('../assets/img/arrowHeader2.svg'), url('../assets/img/girl-catch.png');
+    background-image: url('../assets/img/girl-catch.png');
     background-repeat: no-repeat;
-    background-size: contain, contain, cover;
-    background-position: 0 0, 0 0, 0 50%;
+    background-size: cover;
+    background-position: top 20% right 20%;
 }
 
 
@@ -23,7 +23,9 @@ header {
 
 /* navbar */
 .brand {
-    margin: 0 2.5rem 1rem;
+    margin: 0 3.2rem 2rem;
+    height: 107px;
+    width: 139px;
 }
 
 nav {
@@ -52,7 +54,7 @@ a {
     margin: 0 0rem;
     text-decoration: none;
     font-size: 18px;
-    line-height: 18px;  
+    line-height: 18px;
     color: black;
 }
 
@@ -95,16 +97,30 @@ a:hover {
 /* Header Main Content */
 .sloganContainer {
     width: 684px;
-    margin: 9rem 18rem;
+    margin: 10rem 18.4rem;
+    font-family: 'Lato';
 }
-.slogan {
-    line-height: 50px;
-    letter-spacing: 0em;
+
+.slogan1 {
+    font-family: 'Lato';
+    font-weight: 600;
     text-align: left;
-    font-family: 'Lato', sans-serif;
+    font-size: min(4vw, 2.75rem);
+    max-width: 559px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.slogan {
+    line-height: 42px;
+    font-weight: 800;
+    text-align: left;
     list-style: italic;
-    font-size: 44px;
-    width: 559px;
+    font-size: min(4vw, 2.75rem);
+    max-width: 80%;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -121,7 +137,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100px;
+    height: 7rem;
     bottom: 0;
     position: absolute;
 }
@@ -135,6 +151,14 @@ a:hover {
     line-height: 38px;
     text-align: center;
     padding: 2rem;
+}
+
+.partnerBtn {
+    display: none;
+}
+
+.vectorHeadResponsive {
+    display: none;
 }
 
 /* Grey bar to separate sections */

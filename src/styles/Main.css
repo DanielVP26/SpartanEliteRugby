@@ -1,12 +1,12 @@
 /* all main core content */
 
 .mainContainer {
-    min-height: 166.688rem;
+    height: auto;
     width: auto;
-    background-image: url('../assets/img/arrowMain.png'), linear-gradient(to bottom, #000000, #040404, #080707, #0c0b0b, #0f0e0e);
+    background-image: url('../assets/img/arrowMain.png');
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 100% auto, auto;
+    background-size: 100% 100%;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     overflow: hidden;
@@ -18,24 +18,23 @@
 
 .info {
     height: 166rem;
-    border: 1px solid red
 }
 
 .vector {
     display: flex;
+    width: auto;
     align-items: center;
     height: 3rem;
-    width: 40rem;
-    margin: 4.188rem 0 0 0rem;
+    margin: 4.188rem auto 0 auto;
 }
 
 .textInfo {
     display: flex;
     align-items: center;
     height: 5rem;
-    width: 30rem;
+    width: fit-content;
     color: white;
-    font-size: 40px;
+    font-size: min(5vw, 2.5rem);
     font-style: normal;
     font-weight: 800;
     margin: 1rem;
@@ -47,14 +46,16 @@
 .cardContainer {
     display: flex;
     flex-direction: row;
+    height: fit-content;
+    width: 100%;
 }
 
 .cardOne {
     background-image: url(../assets/img/cardOne.png);
     background-size: cover;
-    width: 661px;
-    height: 516.49px;
-    border-radius: 60px 60px 0px 60px;
+    width: min(70vw, 48.313rem);
+    height: min(62vh, 37.75rem);
+    border-radius: calc(60px * min(40vw, 48.313rem) / 48.313rem) calc(60px * min(40vw, 48.313rem) / 48.313rem) 0px calc(60px * min(40vw, 48.313rem) / 48.313rem);
     transform: matrix(-1, 0, 0, 1, 0, 0);
     margin-top: 4rem;
     margin-left: -20px;
@@ -62,14 +63,28 @@
 }
 
 .cardOneInfo {
-    width: 635px;
-    height: 435px;
+    display: flex;
+    flex-direction: column;
+    width: 39.688rem;
+    height: 27.188rem;
     background: #000000;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px 60px;
-    margin-top: 18rem;
-    margin-left: -2rem;
+    margin-top: 10rem;
+    margin-left: -4rem;
     z-index: 1;
+}
+
+.cardOneText {
+    color: white;
+    font-style: normal;
+    font-weight: 800;
+    width: 55%;
+    font-size: min(9vw, 2rem);
+    line-height: 60px;
+    text-align: center;
+    margin: 2.4rem 0 0 18rem;
+    padding-bottom: 1rem;
 }
 
 .cardTextContainer {
@@ -77,76 +92,62 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 78%;
+    height: 14rem;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-}
-
-.cardOneText {
-    color: white;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 32px;
-    line-height: 60px;
-    text-align: center;
-    margin: 3rem 0 0 18rem;
+    font-size: min(1.9vw, 1.25rem);
+    line-height: 150%;
+    margin-left: 20%;
 }
 
 .cardOneParagraph1 {
     color: white;
-    margin-top: 1rem;
-    height: 1rem;
-    font-size: 20px;
+    margin: 0 4%;
 }
 
 .cardOneParagraph2 {
     color: white;
-    margin: 0.9rem 0 0 1rem;
-    height: 1rem;
-    font-size: 20px;
+    margin: 0 2% 0 0;
 }
 
 .cardOneParagraph3 {
     color: white;
-    text-align: right;
-    margin: 0.9rem 0 0 22rem;
-    height: 1rem;
-    font-size: 20px;
+    margin: 0 0 0 13%;
 }
 
 .cardOneParagraph4 {
     color: white;
-    margin: 3rem 0 0 10rem;
-    height: 1rem;
-    font-size: 20px;
+    margin-top: 1rem;
+    margin-left: 13%;
 }
 
 .cardOneParagraph5 {
     color: white;
-    margin-top: 0.9rem;
-    height: 1rem;
-    font-size: 20px;
+    margin: 0 4% 0 0;
 }
 
 .cardOneParagraph6 {
     color: white;
-    margin: 0.9rem 0 0 16rem;
-    height: 1rem;
-    font-size: 20px;
+    margin: 0 0 0 21%;
 }
 
 .xContainer {
     display: flex;
     justify-content: flex-end;
     margin: 0 3rem;
-    margin-top: -0.9rem;
+    margin-top: -0.1rem;
     letter-spacing: -0.2rem;
 }
 
 .x {
     margin-left: 4px;
+}
+
+.x2 {
+    height: min(3vh, 1.75rem);
+    width: min(3vw, 1.75rem);
 }
 
 /* CardOne */
@@ -165,9 +166,9 @@
 .cardTwo {
     background-image: url(../assets/img/cardTwo.png);
     background-size: cover;
-    width: 661px;
-    height: 516.49px;
-    border-radius: 60px 60px 0px 60px;
+    width: min(70vw, 48.313rem);
+    height: min(60vh, 37.75rem);
+    border-radius: calc(60px * min(40vw, 48.313rem) / 48.313rem) calc(60px * min(40vw, 48.313rem) / 48.313rem) 0px calc(60px * min(40vw, 48.313rem) / 48.313rem);
     margin-top: 4rem;
     margin-right: -120px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -175,19 +176,19 @@
 }
 
 .cardTwoInfo {
-    width: 635px;
-    height: 435px;
+    width: 39.688rem;
+    height: 27.188rem;
     background: #000000;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 60px 0;
-    margin-top: 18rem;
-    margin-right: -2rem;
+    margin-top: 10rem;
+    margin-right: -4rem;
     z-index: 1;
 }
 
 .cardTwoTextContainer {
     display: flex;
-    width: 34.6rem;
+    width: 87%;
     height: 5.5rem;
     flex-direction: column;
     justify-content: center;
@@ -215,26 +216,25 @@
 
 .keyWord {
     color: white;
-    font-size: 22px;
+    font-size: 110%;
     font-weight: 900;
 }
 
 .keyWord2 {
     color: white;
-    font-size: 22px;
+    font-size: 110%;
     font-weight: 900;
 }
 
 .cardTwoTextInfo {
     align-items: center;
     justify-content: center;
-    width: 40rem;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: min(2.6vw, 20px);
     text-align: center;
     white-space: nowrap;
-    margin: 2rem .2rem;
+    margin: 7% 1.6%;
 }
 
 .text1 {
@@ -290,15 +290,15 @@
 .cardThreeContainer {
     display: flex;
     flex-direction: row;
-    padding-top: 3rem ;
+    padding-top: 3rem;
 }
 
 .cardThree {
     background-image: url(../assets/img/cardThree.png);
     background-size: cover;
-    width: 661px;
-    height: 516.49px;
-    border-radius: 60px 60px 0px 60px;
+    width: min(70vw, 48.313rem);
+    height: min(62vh, 37.75rem);
+    border-radius: calc(60px * min(40vw, 48.313rem) / 48.313rem) calc(60px * min(40vw, 48.313rem) / 48.313rem) 0px calc(60px * min(40vw, 48.313rem) / 48.313rem);
     transform: matrix(-1, 0, 0, 1, 0, 0);
     margin-top: 4rem;
     margin-left: -20px;
@@ -306,13 +306,15 @@
 }
 
 .cardThreeInfo {
-    width: 635px;
-    height: 435px;
+    display: flex;
+    flex-direction: column;
+    width: 39.688rem;
+    height: 27.188rem;
     background: #000000;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px 60px;
-    margin-top: 18rem;
-    margin-left: -2rem;
+    margin-top: 10rem;
+    margin-left: -4rem;
     z-index: 1;
 }
 
