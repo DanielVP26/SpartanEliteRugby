@@ -1,0 +1,44 @@
+/*  MEDIA QUERIES  */
+
+@media screen and (max-width: 320px) {
+  .vector {
+    gap: 5px !important;
+  }
+  .vectorDesktop {
+    display: none;
+  }
+  .vectorMobile {
+    display: flex;
+    padding-left: 10px;
+  }
+  .lato_text {
+    font-size: 1.5rem;
+  }
+  .scope {
+    margin-top: 2rem;
+  }
+  .scope_container_info {
+    flex-direction: column;
+    padding-block: 0;
+  }
+  .scope_container_info_text {
+    flex-direction: column;
+    border-right: none;
+    border-bottom: 1px solid #f3fbf9;
+    padding-bottom: 1rem;
+    margin-inline: 2rem;
+    text-align: center;
+    gap: 0;
+  }
+  .partnerCarousel {
+    padding-inline: 0;
+  }
+  .partnerCarouselTitle {
+    font-size: 14px;
+    font-weight: 900;
+    padding-inline: 1.5rem;
+  }
+  .swiper-slide img {
+    width: 7rem;
+  }
+}
