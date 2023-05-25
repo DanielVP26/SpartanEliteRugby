@@ -12,9 +12,8 @@ import img7 from "../assets/img/PartnersBrands/7.png";
 import img8 from "../assets/img/PartnersBrands/8.png";
 import img9 from "../assets/img/PartnersBrands/9.png";
 import img10 from "../assets/img/PartnersBrands/10.png";
-import img11 from "../assets/img/PartnersBrands/11.png";
 
-const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11];
+const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
 const PartnerCarousel = () => {
   return (
     <div className="partnerCarouselContainer">
@@ -34,15 +33,11 @@ const PartnerCarousel = () => {
               slidesPerView: 1,
               spaceBetween: 10,
             },
-            480: {
-              slidesPerView: 2,
-              spaceBetween: 20,
-            },
-            640: {
-              slidesPerView: 3,
-              spaceBetween: 40,
-            },
             768: {
+              slidesPerView: 2,
+              spaceBetween: 50,
+            },
+            1440: {
               slidesPerView: 4,
               spaceBetween: 50,
             },
@@ -50,7 +45,7 @@ const PartnerCarousel = () => {
         >
           {images.map((image, index) => (
             <SwiperSlide key={index}>
-              <img src={image} alt="Partner" />
+              <img className="imageCarousel" src={image} alt="Partner" />
             </SwiperSlide>
           ))}
         </Swiper>

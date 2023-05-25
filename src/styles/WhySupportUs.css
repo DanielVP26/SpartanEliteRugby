@@ -73,6 +73,10 @@ body {
 .scope_container_info_text:last-child {
   border-right: none;
 }
+.scope_container_info_number {
+  display: flex;
+  font-family: "Lato", sans-serif;
+}
 .scope_container_info_text h3 {
   font-size: 2.5rem;
   font-weight: 900;
@@ -120,6 +124,7 @@ body {
   font-weight: 500;
   width: 19rem;
   text-align: center;
+  color: #000000;
 }
 
 /* BRAND PRESENCE */
@@ -167,6 +172,9 @@ body {
   padding-inline: 5rem;
   z-index: 1;
 }
+.BrandPresenceInfo .swiper {
+  overflow: visible;
+}
 .BrandPresenceInfo_item {
   display: flex;
   flex-direction: column;
@@ -196,7 +204,7 @@ body {
   justify-content: center;
   margin-top: 10rem;
 }
-.partnerBtn {
+.partnerButton {
   padding-block: 1rem;
   padding-inline: 2.5rem;
   background-color: #922630;
@@ -252,6 +260,6 @@ body {
   align-items: center;
 }
 
-.swiper-slide img {
+.swiper-slide .imageCarousel {
   width: 13rem;
 }

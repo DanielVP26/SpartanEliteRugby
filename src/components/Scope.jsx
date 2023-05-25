@@ -1,11 +1,12 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
-import numeral from "numeral";
 
 const Scope = () => {
-  const familiesSpring = useSpring({ number: 250, from: { number: 250 } });
-  const followersSpring = useSpring({ number: 2100, from: { number: 2100 } });
-  const viewersSpring = useSpring({ number: 32100, from: { number: 32100 } });
+  const familiesSpring = useSpring({ number: 250, from: { number: 0 } });
+  const followersSpring = useSpring({ number: 2, from: { number: 0 } });
+  const viewersSpring = useSpring({ number: 32, from: { number: 0 } });
+  const followersSpringDecimal = useSpring({ number: 1, from: { number: 0 } });
+  const viewersSpringDecimal = useSpring({ number: 1, from: { number: 0 } });
 
   return (
     <div className="scope">
@@ -15,21 +16,29 @@ const Scope = () => {
         </div>
         <div className="scope_container_info">
           <div className="scope_container_info_text">
-            <animated.h3>
-              {numeral(familiesSpring.number.interpolate((val) => Math.floor(val))).format("0.0a")}
-            </animated.h3>
+            <animated.h3>{familiesSpring.number.to((val) => Math.floor(val))}</animated.h3>
             <h4>Familias por temporada</h4>
           </div>
           <div className="scope_container_info_text">
-            <animated.h3>
-              {numeral(followersSpring.number.interpolate((val) => Math.floor(val))).format("0.0a")}
-            </animated.h3>
+            <div className="scope_container_info_number">
+              <animated.h3>{followersSpring.number.to((val) => Math.floor(val))}</animated.h3>
+              <animated.h3>.</animated.h3>
+              <animated.h3>
+                {followersSpringDecimal.number.to((val) => Math.floor(val))}
+              </animated.h3>
+              <animated.h3>K</animated.h3>
+            </div>
+
             <h4>Seguidores en Instagram y LinkedIn</h4>
           </div>
           <div className="scope_container_info_text">
-            <animated.h3>
-              {numeral(viewersSpring.number.interpolate((val) => Math.floor(val))).format("0.0a")}
-            </animated.h3>
+            <div className="scope_container_info_number">
+              <animated.h3>{viewersSpring.number.to((val) => Math.floor(val))}</animated.h3>
+              <animated.h3>.</animated.h3>
+              <animated.h3>{viewersSpringDecimal.number.to((val) => Math.floor(val))}</animated.h3>
+              <animated.h3>K</animated.h3>
+            </div>
+
             <h4>Televidentes</h4>
           </div>
         </div>

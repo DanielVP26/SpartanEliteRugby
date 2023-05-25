@@ -1,6 +1,7 @@
 /*  MEDIA QUERIES  */
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  /*  SCOPE  */
   .vector {
     gap: 5px !important;
   }
@@ -30,6 +31,73 @@
     text-align: center;
     gap: 0;
   }
+
+  /*  BY SUPPORTING  */
+
+  .by_supporting_container_info {
+    background-color: #e6e6e6;
+    width: 100vw;
+    margin-top: 1rem;
+    padding-block: 1rem;
+  }
+
+  .by_supporting_container_title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .by_supporting_container_info_text h4 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    width: auto;
+  }
+  .by_supporting_container_info_text .claspedHands {
+    width: 8rem;
+  }
+
+  /*  BRAND PRESENCE  */
+
+  .BrandPresence ::before {
+    height: 17rem;
+  }
+
+  .BrandPresenceTitle {
+    font-size: 14px;
+    font-weight: 900;
+    padding-inline: 1.5rem;
+    margin-top: 2rem;
+  }
+  .BrandPresenceInfo {
+    padding: 0;
+    margin-top: 1rem;
+  }
+  .BrandPresenceInfo_item {
+    padding-inline: 1.5rem;
+  }
+  .BrandPresenceInfo_item p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    padding: 0;
+    padding-inline: 1.5rem;
+  }
+  .BrandPresenceInfo_item img {
+    bottom: 0rem;
+  }
+
+  /*  PARTNER BTN  */
+  .partnerBtnContainer {
+    margin-top: 2rem;
+  }
+  .partnerButton {
+    font-size: 14px;
+    font-weight: 500;
+    padding-inline: 1rem;
+    padding-block: 13px;
+  }
+
+  /*  PARTNER CAROUSEL  */
+
   .partnerCarousel {
     padding-inline: 0;
   }
@@ -38,7 +106,28 @@
     font-weight: 900;
     padding-inline: 1.5rem;
   }
-  .swiper-slide img {
-    width: 7rem;
+  .swiper-slide .imageCarousel {
+    width: 10rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .scope_container {
+    width: 90%;
+  }
+  .scope_container_info {
+    justify-content: center;
+  }
+  .scope_container_info_text {
+    padding-inline: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .scope_container_info h3 {
+    font-size: 1.5rem;
+  }
+  .scope_container_info h4 {
+    font-size: 11px;
   }
 }

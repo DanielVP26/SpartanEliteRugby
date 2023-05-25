@@ -21,12 +21,12 @@ const WhySupportUs = () => {
         <h1 className="lato_text">¿Por qué apoyarnos?</h1>
       </div>
       <Scope />
-      {/* <BySupporting />
+      <BySupporting />
       <BrandPresence />
       <div className="partnerBtnContainer">
-        <button className="partnerBtn">Hazte patrocinador</button>
+        <button className="partnerButton">Hazte patrocinador</button>
       </div>
-      <PartnerCarousel /> */}
+      <PartnerCarousel />
     </>
   );
 };

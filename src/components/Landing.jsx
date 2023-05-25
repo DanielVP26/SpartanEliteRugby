@@ -14,11 +14,11 @@ import FormContact from "./FormContact";
 function Landing() {
   return (
     <>
-      {/* <Header />
-      <Main /> */}
+      <Header />
+      <Main />
       <WhySupportUs />
-      {/* <FormContact />
-      <Footer /> */}
+      <FormContact />
+      <Footer />
     </>
   );
 }
