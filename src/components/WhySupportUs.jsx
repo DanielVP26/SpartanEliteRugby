@@ -6,7 +6,7 @@ import Scope from "./Scope";
 import BySupporting from "./BySupporting";
 import BrandPresence from "./BrandPresence";
 import PartnerCarousel from "./PartnerCarousel";
-import vectorMobile from "../assets/VectorMobile.svg";
+import vectorMobile from "../assets/vectorMobile.svg";
 
 const WhySupportUs = () => {
   return (
