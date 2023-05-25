@@ -19,16 +19,34 @@ const PartnerCarousel = () => {
   return (
     <div className="partnerCarouselContainer">
       <div className="partnerCarousel">
-        <h1 className="partnerCarouselTitle">Algunas empresas que ya nos apoyan</h1>
+        <h1 className="partnerCarouselTitle">Algunas empresas que ya nos apoyan:</h1>
         <Swiper
-          slidesPerView={4}
-          spaceBetween={50}
+          slidesPerView={1}
+          spaceBetween={10}
           loop={true}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
           }}
           modules={[Autoplay]}
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            480: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            640: {
+              slidesPerView: 3,
+              spaceBetween: 40,
+            },
+            768: {
+              slidesPerView: 4,
+              spaceBetween: 50,
+            },
+          }}
         >
           {images.map((image, index) => (
             <SwiperSlide key={index}>

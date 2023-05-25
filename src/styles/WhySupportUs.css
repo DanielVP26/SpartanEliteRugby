@@ -10,6 +10,10 @@ body {
   color: #000000;
 }
 
+.vectorMobile {
+  display: none;
+}
+
 .vector {
   height: auto;
   margin: 0;
@@ -133,7 +137,7 @@ body {
   flex-direction: column;
   color: #f3fbf9;
   position: relative;
-  z-index: 1; 
+  z-index: 1;
 }
 .BrandPresenceContainer::before {
   content: "";
