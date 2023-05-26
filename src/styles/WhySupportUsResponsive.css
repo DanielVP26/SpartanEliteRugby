@@ -1,6 +1,6 @@
 /*  MEDIA QUERIES  */
 
-@media screen and (min-width: 300px) and (max-width: 767px) {
+@media screen and (min-width: 200px) and (max-width: 767px) {
   /*  SCOPE  */
   .vector {
     gap: 5px !important;
@@ -129,5 +129,17 @@
   }
   .scope_container_info h4 {
     font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1439px) {
+  .scope_container_info_text {
+    padding-inline: 1rem;
+  }
+  .scope_container_info h3 {
+    font-size: 1.5rem;
+  }
+  .scope_container_info h4 {
+    font-size: 1rem;
   }
 }
