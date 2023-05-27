@@ -1,6 +1,5 @@
-@media screen and (min-width: 359px) and (max-width: 1327px){
+@media screen and (min-width: 360px) and (max-width:1467px){
     footer{
-        background-color: none;
-        background-image: url(../assets/img/FooterResponsive.png);
+        background-image: url(../assets/FooterResponsive.png);
     }
 }
