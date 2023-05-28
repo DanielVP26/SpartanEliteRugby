@@ -1,0 +1,73 @@
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  .FormContactContainer {
+    background-image: url("../assets/FormBackground.png");
+  }
+  .TitleFormContainer {
+    height: auto;
+    padding-top: inherit;
+  }
+  .TitleFormContainer h1 {
+    font-size: 18px;
+  }
+  .TitleFormContainer h2 {
+    font-size: 12px;
+  }
+  .vector {
+    padding-top: 1rem;
+  }
+  .FormContainer {
+    margin-top: 1.4rem;
+    padding-inline: 2.4rem;
+    padding-bottom: 1rem;
+  }
+  .Form {
+    height: auto;
+    padding-inline: 1.2rem;
+    padding-top: 1.3rem;
+  }
+  .Group {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .FormInput input {
+    height: auto;
+    padding-block: 6px;
+    padding-inline: 5px;
+  }
+  .FormInput input::placeholder {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .FormInput textarea {
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid #716f6f;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-block: 6px;
+    padding-inline: 5px;
+  }
+  .FormInput textarea::placeholder {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .ButtonFormContainer {
+    margin-top: 1.8rem;
+    margin-bottom: 1.1rem;
+  }
+  .ButtonForm {
+    padding-inline: 2.2rem;
+    padding-block: 0.5rem;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 900;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 780px) {
+  .FormInput input::placeholder {
+    font-size: 1.2rem;
+  }
+}
