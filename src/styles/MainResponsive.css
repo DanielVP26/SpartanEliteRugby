@@ -63,7 +63,7 @@
 
 }
 
-@media screen and (min-width: 359px) and (max-width: 924px) {
+@media screen and (min-width: 320px) and (max-width: 924px) {
     .v {
         display: none;
     }
@@ -247,11 +247,12 @@
         width: 250%;
     }
 }
+
 @media screen and (min-width: 300px) and (max-width: 600px) {
     .cardOneInfo {
         margin-top: -55%;
         margin-left: 15%;
-        height: 37vh;   
+        height: 37vh;
     }
 
     .cardOneText {
@@ -278,7 +279,8 @@
         height: 20%;
         width: 90%;
     }
-    .cardTwoTextInfo{
+
+    .cardTwoTextInfo {
         margin-top: -3%;
     }
 
@@ -303,6 +305,7 @@
         width: 180%;
     }
 }
+
 
 @media screen and (min-width: 431px) and (max-width: 492px) {
     .cardOneInfo {
@@ -351,7 +354,7 @@
 
     .cardThreeText {
         margin-left: 10%;
-        margin-top:1%;
+        margin-top: 1%;
         width: 80%;
     }
 
@@ -368,7 +371,7 @@
 
 @media screen and (min-width: 395px) and (max-width: 430px) {
     .cardOneInfo {
-        margin-top:-95%;
+        margin-top: -95%;
         height: 26vh;
     }
 
@@ -382,7 +385,7 @@
     .cardTextContainer {
         font-size: 3vw;
         margin-left: 2%;
-        margin-top:-10%;
+        margin-top: -10%;
     }
 
     .cardTwoInfo {
@@ -455,7 +458,7 @@
 
     .cardOneText {
         margin-top: -2%;
-        font-size: 5vw ;
+        font-size: 5vw;
     }
 
     .cardTextContainer {
@@ -512,8 +515,179 @@
         font-size: 60%;
         width: 30%;
         margin-top: -3%;
-        margin-left: -10%;    
-        padding-left: 12%;    
+        margin-left: -10%;
+        padding-left: 12%;
+    }
+
+    .cardUlList {
+        width: 180%;
+    }
+
+    .cardList:before,
+    .cardList2:before {
+        font-size: 70%;
+        line-height: 20%;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 393px) {
+
+    .cardOneInfo {
+            margin-top: -110%;
+            height: 26vh;
+        }
+    
+        .cardOneText {
+            margin-top: -2%;
+            font-size: 5vw;
+        }
+    
+        .cardTextContainer {
+            margin-top: -10%;
+            line-height: 120%;
+            width: 100%;
+            font-size: 3vw;
+        }
+    
+        .cardTwoText {
+            font-size: 6vw;
+            margin-top: -2%;
+            margin-bottom: 10%;
+        }
+    
+        .cardTwoInfo {
+            margin-top: -210%;
+            margin-left: -10%;
+            height: 27vh;
+        }
+    
+        .cardTwoTextInfo {
+            width: 80%;
+            margin-left: -4%;
+            margin-top: -3%;
+            line-height: 70%;
+        }
+    
+        .cardTwoTextContainer {
+            height: 23%;
+            margin-top: -10%;
+            line-height: 100%;
+            font-size: 79%;
+    
+        }
+    
+        .keyWord {
+            padding-bottom: -12%;
+        }
+    
+        .cardThreeInfo {
+            margin-top: -110%;
+            margin-left: 18%;
+            height: 26vh;
+        }
+    
+        .cardThreeText {
+            font-size: 6vw;
+            margin-left: 16%;
+            margin-top: -5%;
+            width: 80%;
+        }
+    
+        .cardListContainer {
+            font-size: 60%;
+            width: 30%;
+            margin-top: -1%;
+            margin-left: -10%;
+            padding-left: 12%;
+        }
+    
+        .cardUlList {
+            width: 180%;
+        }
+    
+        .cardList:before,
+        .cardList2:before {
+            font-size: 70%;
+            line-height: 20%;
+        }
+
+}
+@media screen and (min-width: 340px) and (max-width:359px){
+.cardListContainer {
+        margin-top: -1%;
+        margin-left: -20%;
+        padding-left: 12%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 339px) {
+    .cardOneInfo {
+        margin-top: -120%;
+        height: 26vh;
+    }
+
+    .cardOneText {
+        margin-top: -2%;
+        font-size: 5vw;
+    }
+
+    .cardTextContainer {
+        margin-top: -10%;
+        line-height: 120%;
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    .cardTwoText {
+        font-size: 6vw;
+        margin-top: -2%;
+        margin-bottom: 10%;
+    }
+
+    .cardTwoInfo {
+        margin-top: -230%;
+        margin-left: -10%;
+        height: 27vh;
+    }
+
+    .cardTwoTextInfo {
+        width: 80%;
+        margin-left: -4%;
+        margin-top: -3%;
+        line-height: 70%;
+    }
+
+    .cardTwoTextContainer {
+        height: 23%;
+        margin-top: -10%;
+        line-height: 100%;
+        font-size: 79%;
+
+    }
+
+    .keyWord {
+        padding-bottom: -12%;
+    }
+
+    .cardThreeInfo {
+        margin-top: -120%;
+        margin-left: 18%;
+        height: 26vh;
+    }
+
+    .cardThreeText {
+        font-size: 6vw;
+        margin-left: 16%;
+        margin-top: -5%;
+        width: 80%;
+    }
+
+    .cardListContainer {
+        font-size: 60%;
+        width: 30%;
+        margin-top: -3%;
+        margin-left: -20%;
+        padding-left: 12%;
     }
 
     .cardUlList {
