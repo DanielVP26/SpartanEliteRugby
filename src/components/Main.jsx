@@ -10,8 +10,7 @@ function Main() {
         <div id="queEsSpartan"></div>
         <section>
           <div className="vector">
-            
-            <VectorResponsive/>
+            <VectorResponsive />
             <Vector />
             <h1 className="textInfo">conócenos</h1>
           </div>
@@ -99,6 +98,7 @@ function Main() {
         </section>
         <section>
           <div className="cardThreeContainer">
+          <div id="partnerBtnResponsive"></div>
             <Fade left>
               <div className="cardThree"></div>
             </Fade>

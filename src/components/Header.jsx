@@ -33,7 +33,9 @@ function Header() {
           <h2 className="slogan">hacia adelante</h2>
         </div>
         <div className="partnerBtnContainer">
-          <button className="partnerBtn">Hazte patrocinador</button>
+          <a href="#partnerBtnResponsive">
+            <button className="partnerBtn">Hazte patrocinador</button>
+          </a>
         </div>
         <div className="greyBar">
           <VectorHead />
