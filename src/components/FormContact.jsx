@@ -22,6 +22,8 @@ const FormContact = () => {
 
   return (
     <div className="FormContactContainer">
+      <div id="queOfrecemos"></div>
+      <div id="partnerBtnResponsive"></div>
       <div className="vector">
         <div className="vectorDesktop">
           <Vector />
@@ -38,22 +40,46 @@ const FormContact = () => {
         <form className="Form" onSubmit={sendEmail}>
           <div className="Group">
             <div className="FormInput">
-              <input type="text" name="name" id="name" placeholder="Nombre Completo" />
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Nombre Completo"
+              />
             </div>
             <div className="FormInput">
-              <input type="text" name="company" id="company" placeholder="Compañía" />
+              <input
+                type="text"
+                name="company"
+                id="company"
+                placeholder="Compañía"
+              />
             </div>
           </div>
           <div className="Group">
             <div className="FormInput">
-              <input type="email" name="email" id="email" placeholder="Correo electrónico" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Correo electrónico"
+              />
             </div>
             <div className="FormInput">
-              <input type="tel" name="phone" id="phone" placeholder="Número telefónico" />
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Número telefónico"
+              />
             </div>
           </div>
           <div className="FormInput">
-            <textarea name="message" id="message" placeholder="¿Quieres dejarnos un mensaje?" />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="¿Quieres dejarnos un mensaje?"
+            />
           </div>
           <div className="ButtonFormContainer">
             <input type="submit" value="Enviar" className="ButtonForm" />
