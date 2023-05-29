@@ -98,11 +98,9 @@ function Main() {
         </section>
         <section>
           <div className="cardThreeContainer">
-          <div id="partnerBtnResponsive"></div>
             <Fade left>
               <div className="cardThree"></div>
             </Fade>
-            <div id="queOfrecemos"></div>
             <Fade right>
               <div className="cardThreeInfo">
                 <div className="xContainer">
