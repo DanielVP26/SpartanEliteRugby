@@ -30,6 +30,10 @@ const BrandPresence = () => {
                 slidesPerView: 1,
                 spaceBetween: 10,
               },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 50,
+              },
               1440: {
                 slidesPerView: 4,
                 spaceBetween: 50,

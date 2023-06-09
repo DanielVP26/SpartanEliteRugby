@@ -39,7 +39,7 @@
   .footerContainer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     padding-block: 5rem;
     margin: 0;
     padding-inline: 3rem;
@@ -57,5 +57,9 @@
 
   .adress {
     margin-top: 30px;
+  }
+
+  .icons {
+    margin: 0.9rem 0.5rem 0;
   }
 }

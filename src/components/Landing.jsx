@@ -10,10 +10,13 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import WhySupportUs from "./WhySupportUs";
 import FormContact from "./FormContact";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Landing() {
   return (
     <>
+      <ToastContainer />
       <Header />
       <Main />
       <WhySupportUs />

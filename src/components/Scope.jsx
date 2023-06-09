@@ -39,7 +39,7 @@ const Scope = () => {
               <animated.h3>K</animated.h3>
             </div>
 
-            <h4>Televidentes</h4>
+            <h4>Visualizaciones</h4>
           </div>
         </div>
       </div>

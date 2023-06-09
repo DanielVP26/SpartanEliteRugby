@@ -24,7 +24,11 @@ const WhySupportUs = () => {
       <BySupporting />
       <BrandPresence />
       <div className="partnerBtnContainer">
-        <button className="partnerButton">Hazte patrocinador</button>
+        <button className="partnerButton">
+          <a href="#queOfrecemos" className="btn-oldLink">
+            Hazte patrocinador
+          </a>
+        </button>
       </div>
       <PartnerCarousel />
     </>
