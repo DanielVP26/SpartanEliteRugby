@@ -34,6 +34,10 @@
 
   /*  BY SUPPORTING  */
 
+  .by_supporting {
+    margin-top: 2rem;
+  }
+
   .by_supporting_container_info {
     background-color: #e6e6e6;
     width: 100vw;
@@ -42,7 +46,7 @@
   }
 
   .by_supporting_container_title {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
   }
   .by_supporting_container_info_text h4 {
@@ -57,12 +61,15 @@
 
   /*  BRAND PRESENCE  */
 
+  .BrandPresence {
+    margin-top: 4rem;
+  }
   .BrandPresence ::before {
     height: 17rem;
   }
 
   .BrandPresenceTitle {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 900;
     padding-inline: 1.5rem;
     margin-top: 2rem;
@@ -87,7 +94,7 @@
 
   /*  PARTNER BTN  */
   .partnerBtnContainer {
-    margin-top: 2rem;
+    margin-top: 5rem;
   }
   .partnerButton {
     font-size: 14px;
@@ -109,6 +116,9 @@
   .swiper-slide .imageCarousel {
     width: 10rem;
   }
+  .partnerCarouselContainer {
+    margin-top: 4.5rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -129,6 +139,12 @@
   }
   .scope_container_info h4 {
     font-size: 11px;
+  }
+  .BrandPresenceInfo_item img {
+    width: 13rem;
+  }
+  .swiper-slide .imageCarousel {
+    width: 9rem;
   }
 }
 
