@@ -13,7 +13,6 @@ function Footer() {
             <p className="contact">Contacto</p>
             <p className="email">info@spartaneliterugby.es</p>
             <p className="number">+34 632 38 67 99</p>
-            <p>Partida Planos, 15, 29410, Málaga</p>
           </div>
           <div className="logoFooter">
             <LogoFooter />
