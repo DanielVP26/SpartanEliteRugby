@@ -158,6 +158,7 @@
   }
 }
 
+
 @media screen and (min-width: 807px) {
   .responsiveVectorMain {
     display: none;
@@ -351,14 +352,16 @@
     width: 180%;
   }
 }
-@media screen and (min-width: 410px) and (max-width: 430px) {
+
+@media screen and (min-width: 413px) and (max-width: 430px) {
   .cardOneInfo {
-    margin-top: -100%!important;
+    margin-top: -100%;
   }
 }
+
 @media screen and (min-width: 395px) and (max-width: 430px) {
   .cardOneInfo {
-    margin-top: -120%!;
+    margin-top: -120% !;
     height: 26vh;
   }
 
@@ -437,7 +440,93 @@
   }
 }
 
-@media screen and (min-width: 360px) and (max-width: 394px) {
+@media screen and (min-width:413px) and (max-width:414px) {
+  .cardOneInfo {
+    margin-top: -85%;
+  }
+
+  .cardOneText {
+    margin-top: -4%;
+    font-size: 5vw;
+  }
+
+  .cardTextContainer {
+    margin-top: -10%;
+    line-height: 120%;
+    width: 100%;
+    font-size: 3vw;
+  }
+
+  .cardTwoText {
+    font-size: 6vw;
+    margin-top: -2%;
+    margin-bottom: 10%;
+  }
+
+  .cardTwoInfo {
+    margin-top: -138%;
+    margin-left: -25%;
+    height: 27vh;
+  }
+
+  .cardTwoTextInfo {
+    width: 80%;
+    margin-left: -4%;
+    margin-top: -3%;
+    line-height: 70%;
+  }
+
+  .cardTwoTextContainer {
+    height: 23%;
+    margin-top: -10%;
+    line-height: 100%;
+    font-size: 90%;
+  }
+
+  .keyWord {
+    padding-bottom: -12%;
+  }
+
+  .cardThreeInfo {
+    margin-top: -85%;
+    margin-left: 18%;
+    height: 26vh;
+  }
+
+  .cardThreeText {
+    font-size: 6vw;
+    margin-left: 16%;
+    margin-top: -5%;
+    width: 80%;
+  }
+
+  .cardListContainer {
+    font-size: 60%;
+    width: 30%;
+    margin-top: -3%;
+    margin-left: -10%;
+    padding-left: 12%;
+  }
+
+  .cardUlList {
+    width: 180%;
+  }
+
+  .cardList:before,
+  .cardList2:before {
+    font-size: 70%;
+    line-height: 20%;
+  }
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 412px) {
+  .cardOneInfo {
+    margin-top: -100%;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
   .cardOneInfo {
     margin-top: -110%;
     height: 26vh;
@@ -594,6 +683,22 @@
   .cardList2:before {
     font-size: 70%;
     line-height: 20%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 376px) {
+  .cardOneInfo {
+    margin-top: -85%;
+  }
+
+  .cardTwoInfo {
+    margin-top: -145%;
+    
+  }
+
+  .cardThreeInfo {
+    margin-top: -80%;
+   
   }
 }
 
