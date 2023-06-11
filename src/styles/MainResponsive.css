@@ -355,7 +355,7 @@
 
 @media screen and (min-width: 413px) and (max-width: 430px) {
   .cardOneInfo {
-    margin-top: -100%;
+    margin-top: -25rem;
   }
 }
 
@@ -379,7 +379,7 @@
   }
 
   .cardTwoInfo {
-    margin-top: -160%;
+    margin-top: -155%;
     margin-left: -10%;
     height: 29vh;
   }
